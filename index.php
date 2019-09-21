@@ -45,15 +45,15 @@ include('common/functions.php');
     </section>
     <script>
         function signup(){
-            var xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function() {
-                if (this.readyState == 4 && this.status == 200) {
-                    document.write(this.responseText);
-                    // window.location.href = "signup.php";
-                }
-            };
-            xhttp.open("GET", "signup.php", true);
-            xhttp.send();
+            // var xhttp = new XMLHttpRequest();
+            // xhttp.onreadystatechange = function() {
+            //     if (this.readyState == 4 && this.status == 200) {
+            //         document.write(this.responseText);
+                    window.location.href = "signup.php";
+            //     }
+            // };
+            // xhttp.open("GET", "signup.php", true);
+            // xhttp.send();
         }
     </script>
 </body>
