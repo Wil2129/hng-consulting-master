@@ -37,12 +37,12 @@ include('common/functions.php');
                     }
                     ?>
                 </div>
-                <input type="email" name="email" placeholder="Email address" class="signup-page" required>
-                <input type="password" name="password1" placeholder="Password" class="signup-page" required>
-                <input type="password" name="password2" placeholder="Confirm Password" class="signup-page" required>
-                <button class="btn btn-submit" name="signup" value="signup" type="submit">Register</button>
+                <input type="email" name="email" placeholder="Adresse e-mail" class="signup-page" required>
+                <input type="password" name="password1" placeholder="Mot de passe" class="signup-page" required>
+                <input type="password" name="password2" placeholder="Confirmez le mot de passe" class="signup-page" required>
+                <button class="btn btn-submit" name="signup" value="signup" type="submit">S'enregistrer</button>
             </form>
-            <h3 class="create-account">Déjà inscrit?<button class="btn btn-start" onclick="login()">S'identifier</button></h3> 
+            <h3 class="create-account">Déjà inscrit?<button class="btn btn-start" onclick="login()">Se connecter</button></h3> 
         </div>
     </section>
     <script>

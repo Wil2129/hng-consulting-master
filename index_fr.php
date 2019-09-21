@@ -35,15 +35,15 @@ include('common/functions.php');
 }
                         ?>
                 </div>
-                <input type="email" name="email" placeholder="Email address" required>
-                <input type="password" name="password" placeholder="Password" required>
-                <button class="btn btn-submit" name="login" value="login" type="submit">Login</button>
+                <input type="email" name="email" placeholder="Adresse e-mail" required>
+                <input type="password" name="password" placeholder="Mot de passe" required>
+                <button class="btn btn-submit" name="login" value="login" type="submit">Se connecter</button>
             </form>
             <h3 class="password-forget"><a href="forgot.html">Mot de passe oublié ?</a></h3>
             <h3 class="create-account">Pas de compte?<button class="btn btn-start" onclick="signup()">S'enregistrer</button></h3> 
         </div>
     </section>
-    <script>
+    <script>Login
         function signup(){
             // var xhttp = new XMLHttpRequest();
             // xhttp.onreadystatechange = function() {
