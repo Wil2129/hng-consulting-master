@@ -3,7 +3,7 @@ include('common/functions.php');
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,7 +39,7 @@ include('common/functions.php');
                 <input type="password" name="password" placeholder="Mot de passe" required>
                 <button class="btn btn-submit" name="login" value="login" type="submit">Se connecter</button>
             </form>
-            <h3 class="password-forget"><a href="forgot.html">Mot de passe oublié ?</a></h3>
+            <h3 class="password-forget"><a href="mot_de_passe_oublie.html">Mot de passe oublié ?</a></h3>
             <h3 class="create-account">Pas de compte?<button class="btn btn-start" onclick="signup()">S'enregistrer</button></h3> 
         </div>
     </section>
