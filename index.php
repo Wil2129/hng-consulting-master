@@ -1,5 +1,6 @@
 <?php
 include('common/functions.php');
+echo locale_get_default();
 ?>
 
 <!DOCTYPE html>
