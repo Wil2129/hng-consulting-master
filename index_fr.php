@@ -43,7 +43,7 @@ include('common/functions.php');
             <h3 class="create-account">Pas de compte?<button class="btn btn-start" onclick="signup()">S'enregistrer</button></h3> 
         </div>
     </section>
-    <script>Login
+    <script>
         function signup(){
             // var xhttp = new XMLHttpRequest();
             // xhttp.onreadystatechange = function() {
